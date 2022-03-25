@@ -1,0 +1,52 @@
+body
+{
+    /* method for color */
+    background-color: blue;
+    background-color: rgb(200, 150, 250);
+    background-color: rgba(200, 150, 250, 0.3);
+    background-color: hsl(105, 50%, 60%);
+    background-color: hsla(100, 70%, 50%, .5);
+    background-color: #188377;
+    /* background-image: url('2.jpg');
+    background-size: cover; */
+}
+
+#para
+{
+    color: white;
+    /* methods for font size */
+    font-size: xx-large;
+    font-size: 25px;
+    font-size: 30pt;
+    font-size: 5vw;
+    font-size: 8vh;
+    font-size: 400%;
+    font-size: 2rem;
+    font-size: 5em;
+    font-size: 1in;
+    font-size: 1cm;
+    font-size: 10mm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.image
+{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+    border: 5px solid yellow;
+    opacity: 1;
+    filter: grayscale(100%);
+    filter: brightness(120%);
+    filter: saturate(250%);
+    filter: contrast(120%);
+    filter: blur(3px);
+    filter: hue-rotate(270deg);
+    filter: drop-shadow(8px 8px 8px 8px yellow);
+    filter: invert(100%);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- hyper links in HTML -->
+    <!-- local hyper link -->
+    <a href="lecture6.html">Open Lecture 6</a> <br>
+    <!-- global hyper links -->
+    <a href="https://www.google.com">Open Google Home Page</a> <br>
+    <a href="https://youtube.com" target="_blank">Open youtube</a> <br>
+    <a href="mailto:mr.abdulrehman.ar@gmail.com">Send Email</a> <br>
+    <a href="tel:+923089098067">Call to someone</a> <br>
+    <a href="https://www.facebook.com">
+        <button type="button">Open facebook</button>
+    </a> <br>
+
+    <a href="task8.html">
+        <img src="cover.png" alt="This is an image" width="50px" height="80px">
+    </a> <br>
+    <br>
+    <h1>Form Controls</h1>
+    <!-- form controls in HTML -->
+    <form action="#" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" placeholder="Enter Username Here" required> <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter Password Here" required> <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter Email Here" ><br>
+        <label for="url">Portfolio</label>
+        <input type="url" name="url" placeholder="Enter Portfolio Url"> <br>
+        <label for="mobile">Mobile</label>
+        <input type="tel" name="mobile" placeholder="Enter Mobile # Here"> <br>
+        <label for="gender">Gender : </label>
+        <input type="radio" name="gender" value="male" required checked> male
+        <input type="radio" name="gender" value="female" required> female <br>
+        <label for="hobbies">Hobbies : </label> <br>
+        <input type="checkbox" name="hobbies" value="book reading"> Book Reading <br>
+        <input type="checkbox" name="hobbies" value="programming"> programming <br>
+        <input type="checkbox" name="hobbies" value="traveling"> traveling <br>
+        <label for="designation">designation :</label>
+        <select name="designation" id="" required>
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+            <option value="trainer">Trainer</option>
+        </select> <br>
+        <label for="color">Favourite Color: </label>
+        <input type="color" name="color"> <br>
+        <label for="price">price : </label>
+        <input type="range" name="price" max="1000" min="100"> <br>
+        <label for="dob">D.O.B</label>
+        <input type="date" name="dob"> <br>
+        <label for="time">Time</label>
+        <input type="time" name="time"> <br>
+        <label for="cv">Select CV File</label>
+        <input type="file" required> <br>
+        <label for="address">Address</label>
+        <textarea name="address"  cols="30" rows="10" placeholder="Enter Address Here">
+
+        </textarea>
+
+
+        <br><input type="submit" value="Login">
+        <input type="reset" value="Clear">
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 8</title>
+</head>
+<body>
+    <!-- Nested Table -->
+    <table border="2px" width="100%" cellspacing="0px">
+        <!-- Table Header -->
+        <tr>
+            <th colspan="4">I am Table 1</th>
+        </tr>
+        <!-- Table Data -->
+        <tr>
+            <td>First</td>
+            <td>Second</td>
+            <td rowspan="2">
+                <!-- Nested Table -->
+                <table border="2px" width="100%" cellspacing="0px">
+                        <tr>
+                            <th colspan="2">I am Table 2</th>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td>Pakistan</td>
+                        </tr>
+
+                </table>
+            </td>
+            <td>Hello</td>
+        </tr>
+        <tr>
+            <td>Third</td>
+            <td>Fourth</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>Fifth</td>
+            <td>Sixth</td>
+            <td>Blank</td>
+            <td rowspan="2"> I am merged cell</td>
+        </tr>
+        <tr>
+            <td>Seventh</td>
+            <td>Eighth</td>
+            <td>Blank</td>
+        </tr>
+    </table>
+</body>
+</html>

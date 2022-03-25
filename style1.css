@@ -1,0 +1,87 @@
+.nav
+{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    margin: 0px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav:visited
+{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav:active
+{
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav:hover
+{
+    background-color: black;
+    color: white; 
+    padding: 8px;
+    margin: 0px;
+}
+
+header
+{
+    text-align: center;
+    background-color: chocolate;
+    padding: 8px;
+}
+
+button
+{
+    width: 200px;
+    height: 40px;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+#shape1
+{
+    width: 200px;
+    height: 180px;
+    background-color: blueviolet;
+    margin: 10px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+/* creating circle in css */
+.shape2
+{
+    width: 200px;
+    height: 200px;
+    margin: 8px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.shape3
+{
+    width: 200px;
+    height: 160px;
+    margin: 5px;
+    background-color: grey;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,54 @@
+#main-section
+{
+    display: flex;
+    height: 460px;
+    border: 1px solid black;
+    background-color: azure;
+}
+
+#left-column
+{
+    height: 460px;
+    width: 10%;
+    border: 1px solid black;
+    background-color: burlywood;
+}
+#right-column
+{
+    height: 460px;
+    width: 90%;
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+#head, #foot
+{
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: gold;
+}
+
+#content
+{
+    display: flex;
+    height: 360px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#left
+{
+    width: 60%;
+    height: 360px;
+    border: 1px solid black;
+    background-color: chartreuse;
+}
+
+#right
+{
+    width: 40%;
+    height: 360px;
+    border: 1px solid black;
+    background-color: skyblue;
+}

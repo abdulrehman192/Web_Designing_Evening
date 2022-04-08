@@ -7,11 +7,557 @@
     <title>Bootstrap Framework</title>
     <!-- first of all we link google fonts, fontawesome, bootstrap.min.css and lastly style.css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/style.css" type="text/css"> -->
 </head>
 <body>
     
-    <button type="button" class="btn btn-primary">Download</button>
-    
+    <!-- Layouts in bootstrap -->
+    <!-- Container Layout and Grid Layout -->
+
+    <!-- Container Layout System -->
+    <h1>Simple Container</h1>
+
+    <section class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nihil consequatur obcaecati quis placeat perspiciatis non ducimus eligendi optio corporis cum nostrum nulla nobis sunt, temporibus delectus ad ea saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur modi reiciendis voluptatum quis velit. Eaque repellendus nulla magni quidem saepe officiis distinctio porro aspernatur dignissimos! Voluptates sint aliquid quaerat fugit.</p>
+    </section>
+    <h1>Fluid Container</h1>
+    <section class="container-fluid">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates nihil consequatur obcaecati quis placeat perspiciatis non ducimus eligendi optio corporis cum nostrum nulla nobis sunt, temporibus delectus ad ea saepe? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur modi reiciendis voluptatum quis velit. Eaque repellendus nulla magni quidem saepe officiis distinctio porro aspernatur dignissimos! Voluptates sint aliquid quaerat fugit.</p>
+    </section>
+    <h1>Grid Layout System</h1>
+    <h2>Auto Equal width of columns</h2>
+    <section class="container my-3">
+        <section class="row">
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+        <section class="row">
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+            <section class="col">.col</section>
+        </section>
+    </section>
+    <h2>Manual Column Assignment</h2>
+    <section class="container">
+        <section class="row">
+            <section class="col col-3">.col-3</section>
+            <section class="col col-6">.col-6</section>
+            <section class="col col-3">.col-3</section>
+        </section>
+        <section class="row">
+            <section class="col col-1">.col-1</section>
+            <section class="col col-5">.col-5</section>
+            <section class="col col-6">.col-6</section>
+        </section>
+    </section>
+
+    <h1>Responsive image</h1>
+    <img src="images/2.jpg" alt="" class="img-fluid">
+    <img src="images/2.jpg" alt="" class="img-thumbnail">
+    <h1>keyboad shortcuts</h1>
+    <kbd>
+        <kbd>Ctrl</kbd>+<kbd>S</kbd>
+    </kbd>
+    <br><br>
+
+    <h1>Table</h1>
+    <section class="container-fluid">
+        <table class="table table-striped table-responsive">
+            <tr class="thead-dark">
+                <th>Sr. #</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Contact</th>
+                <th>Address</th>
+            </tr>
+            <!-- table data -->
+            <tr>
+                <td>1</td>
+                <td>Abdul</td>
+                <td>Rehman</td>
+                <td>mr.abdulrehman.ar@gmail.com</td>
+                <td>0308-9098067</td>
+                <td>Okara</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Abdul</td>
+                <td>Rehman</td>
+                <td>mr.abdulrehman.ar@gmail.com</td>
+                <td>0308-9098067</td>
+                <td>Okara</td>
+            </tr>
+        </table>
+        <br><br>
+        <table class="table table-danger table-bordered">
+            <tr>
+                <th>Sr.</th>
+                <th>Name</th>
+                <th>Contact</th>
+            </tr>
+            <tr class="table-dark text-dark">
+                <td>1</td>
+                <td>Ali</td>
+                <td>54544554</td>
+            </tr>
+            <tr class="table-warning">
+                <td>2</td>
+                <td>Ali</td>
+                <td>54544554</td>
+            </tr>
+            <tr class="table-success">
+                <td>3</td>
+                <td>Ali</td>
+                <td>54544554</td>
+            </tr>
+        </table>
+    </section>
+    <h1>Alerts in Bootstrap</h1>
+    <section class="container">
+        <h2>Simple Alerts</h2>
+        <section class="alert alert-primary">This is a primary alert</section>
+        <section class="alert alert-secondary">This is a secondary alert</section>
+        <section class="alert alert-success">This is a Success alert</section>
+        <section class="alert alert-danger">This is a danger alert</section>
+        <section class="alert alert-warning">This is a warning alert</section>
+        <section class="alert alert-info">This is a info alert</section>
+        <section class="alert alert-light">This is a light alert</section>
+        <section class="alert alert-dark">This is a dark alert</section>
+        <h2>Alerts with links</h2>
+        <section class="alert alert-primary">This is a primary alert for more info <a href="#" class="alert-link">Click Here</a></section>
+        <section class="alert alert-secondary">This is a secondary alert for more info <a href="#" class="alert-link">Click Here</a></section>
+        <section class="alert alert-success">This is a Success alert for more info <a href="#" class="alert-link">Click Here</a></section>
+        <section class="alert alert-danger">This is a danger alert for more info <a href="#" class="alert-link">Click Here</a></section>
+        <section class="alert alert-warning">This is a warning alert for more info <a href="#" class="alert-link">Click Here</a></section>
+        <section class="alert alert-info">This is a info alert for more info <a href="#" class="alert-link">Click Here</a></section>
+        <section class="alert alert-light">This is a light alert for more info <a href="#" class="alert-link">Click Here</a></section>
+        <section class="alert alert-dark">This is a dark alert for more info <a href="#" class="alert-link">Click Here</a></section>
+        <h2>Alerts with additional content</h2>
+        <section class="alert alert-primary">
+            <h4 class="alert-heading">Alert Heading</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet assumenda mollitia nobis rem blanditiis vitae nam ab nesciunt, fugiat doloribus, incidunt nemo deserunt voluptate pariatur dignissimos veniam. Aliquam, neque?</p>
+            <button class="btn btn-primary">Primary Button</button>
+        </section>
+        <section class="alert alert-warning">
+            <h4 class="alert-heading">We are hiring!</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur molestias dolorum inventore ipsa nobis quam quisquam corrupti minus rerum nihil et iure consequuntur, error quo dignissimos commodi facere? Doloremque, aut.</p>
+            <button class="btn btn-warning">Warning Button</button>
+        </section>
+        <h2>Dissmissible Alerts</h2>
+        <section class="alert alert-danger alert-dismissible fade show" role="alert">
+            This is a Dissmissible alert
+            <button type="button" class="btn btn-close" data-dismiss="alert" aria-label="Close">x</button>
+        </section> 
+    </section>
+    <h1>Breedcrumb in Bootstrap</h1>
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Classes</a></li>
+        <li class="breadcrumb-item"><a href="#">Students</a></li>
+        <li class="breadcrumb-item active"><a href="#">Ali Raza</a></li>
+    </ol>
+    <h1>Buttons in Bootstrap</h1>
+    <section class="container-fluid">
+        <h2>Standard Buttons</h2>
+        <button type="button" class="btn btn-primary">Primary Button</button>
+        <button type="button" class="btn btn-secondary">secondary button</button>
+        <button type="button" class="btn btn-success">Success button</button>
+        <button type="button" class="btn btn-danger">danger button</button>
+        <button type="button" class="btn btn-warning">warning button</button>
+        <button type="button" class="btn btn-info">info button</button>
+        <button type="button" class="btn btn-light">light button</button>
+        <button type="button" class="btn btn-dark">dark button</button>
+        <h2>Outline Buttons</h2>
+        <button type="button" class="btn btn-outline-primary">Primary Outline</button>
+        <button type="button" class="btn btn-outline-secondary">Secondary Outline</button>
+        <button type="button" class="btn btn-outline-success">Success Outline</button>
+        <button type="button" class="btn btn-outline-danger">Danger Outline</button>
+        <button type="button" class="btn btn-outline-warning">Warning Outline</button>
+        <button type="button" class="btn btn-outline-info">Info Outline</button>
+        <button type="button" class="btn btn-outline-light">Light Outline</button>
+        <button type="button" class="btn btn-outline-dark">Dark Outline</button>
+        <h2>Block Buttons</h2>
+        <button type="button" class="btn btn-primary btn-block">Primary Block Button</button>
+        <button type="button" class="btn btn-secondary btn-block">Secondary Block Button</button>
+        <button type="button" class="btn btn-success btn-block">Success Block Button</button>
+        <button type="button" class="btn btn-danger btn-block">Danger Block Button</button>
+        <button type="button" class="btn btn-warning btn-block">Warning Block Button</button>
+        <button type="button" class="btn btn-info btn-block">Info Block Button</button>
+        <button type="button" class="btn btn-light btn-block">Light Block Button</button>
+        <button type="button" class="btn btn-dark btn-block">Dark Block Button</button>
+        <h2>Small and large buttons</h2>
+        <button type="button" class="btn btn-primary btn-sm">Small button</button>
+        <button type="button" class="btn btn-primary btn-lg">Large Button</button>
+        <h2>Links as button</h2>
+        <a href="#" class="btn btn-primary">Link Button</a>
+        <h2>Group Buttons</h2>
+        <section class="btn-group" data-toggle="buttons">
+            <button type="button" class="btn btn-primary">button 1</button>
+            <button type="button" class="btn btn-warning">button 2</button>
+            <button type="button" class="btn btn-danger">button 3</button>
+        </section>
+        <h2>Input types in button</h2>
+        <label for="button" class="btn btn-primary">
+            <input type="checkbox"> Checkme
+        </label>
+        <label for="button" class="btn btn-warning">
+            <input type="radio"> Checkme
+        </label>
+    </section>
+
+    <h1>Cards in Bootstrap</h1>
+    <section class="container">
+        <h2>Card with image at top</h2>
+        <section class="card">
+            <img src="images/2.jpg" alt="Card top image" class="img-fluid card-img-top">
+            <section class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius itaque debitis iste quae aliquam ex sit provident nesciunt, porro, in rerum sequi odit laudantium laboriosam? Labore reprehenderit ducimus amet sunt!</p>
+            </section>
+        </section>
+        <h2>Card with header and footer</h2>
+        <section class="card">
+            <section class="card-header bg-primary text-light ">
+                <h3>Card Header</h3>
+            </section>
+            <section class="card-body">
+                <section class="card-title">Card Title</section>
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti alias ex rerum, voluptates maiores eligendi est? Cumque dignissimos eius blanditiis, ipsum similique dolorem id voluptas officiis, sint suscipit laborum accusamus!</p>
+            </section>
+            <section class="card-footer">
+                <button type="button" class="btn btn-primary btn-block">Read More</button>
+            </section>
+        </section>
+        <h2>Cards in grid view</h2>
+        <section class="row">
+            <section class="col-lg-3 col-md-6 col-sm-12">
+                <section class="card">
+                    <section class="card-header ">Product 1</section>
+                    <section class="card-body">
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </section>
+                    <section class="card-footer">
+                        <button type="button" class="btn btn-primary btn-block">Read more</button>
+                    </section>
+                </section>
+            </section>
+            <section class="col-lg-3 col-md-6 col-sm-12">
+                <section class="card">
+                    <section class="card-header ">Product 1</section>
+                    <section class="card-body">
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </section>
+                    <section class="card-footer">
+                        <button type="button" class="btn btn-primary btn-block">Read more</button>
+                    </section>
+                </section>
+            </section>
+            <section class="col-lg-3 col-md-6 col-sm-12">
+                <section class="card">
+                    <section class="card-header ">Product 1</section>
+                    <section class="card-body">
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </section>
+                    <section class="card-footer">
+                        <button type="button" class="btn btn-primary btn-block">Read more</button>
+                    </section>
+                </section>
+            </section>
+            <section class="col-lg-3 col-md-6 col-sm-12">
+                <section class="card">
+                    <section class="card-header ">Product 1</section>
+                    <section class="card-body">
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ul>
+                    </section>
+                    <section class="card-footer">
+                        <button type="button" class="btn btn-primary btn-block">Read more</button>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+    <h1>Pagination</h1>
+    <ul class="pagination">
+        <li class="page-item"><a href="#" class="page-link">Previous</a></li>
+        <li class="page-item"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item active"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link">5</a></li>
+        <li class="page-item"><a href="#" class="page-link">Next</a></li>
+
+    </ul>
+
+    <h1>Progress Bars in Bootstrap</h1>
+    <section class="container">
+        <h2>Simple Progress Bar</h2>
+        <section class="progress ">
+            <section class="progress-bar w-50" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" >45%</section>
+        </section>
+        <h2>Color Progress Bar</h2>
+        <section class="progress ">
+            <section class="progress-bar w-50 bg-success " aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" >45%</section>
+        </section>
+        <h2>Striped Progress Bar</h2>
+        <section class="progress ">
+            <section class="progress-bar w-50 progress-bar-striped" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" >45%</section>
+        </section>
+        <h2>Striped Animated Progress Bar</h2>
+        <section class="progress ">
+            <section class="progress-bar w-50 progress-bar-striped progress-bar-animated" aria-valuemin="0" aria-valuemax="100" aria-valuenow="45" >45%</section>
+        </section>
+    </section>
+    <h1>Spiners in Bootstrap</h1>
+    <section class="container">
+        <h2>Border Spinner</h2>
+        <section class="spinner-border"></section>
+        <h2>Color Spinner</h2>
+        <section class="spinner-border text-primary"></section>
+        <span class="spinner-border text-secondary"></span>
+        <span class="spinner-border text-success"></span>
+        <span class="spinner-border text-danger"></span>
+        <span class="spinner-border text-warning"></span>
+        <span class="spinner-border text-info"></span>
+        <span class="spinner-border text-light"></span>
+        <span class="spinner-border text-dark"></span>
+        <h2>Growing Spinner</h2>
+        <section class="spinner-grow text-primary"></section>
+        <section class="spinner-grow text-secondary"></section>
+        <section class="spinner-grow text-success"></section>
+        <section class="spinner-grow text-danger"></section>
+        <section class="spinner-grow text-warning"></section>
+        <section class="spinner-grow text-info"></section>
+        <section class="spinner-grow text-dark"></section>
+        <h2>Spinner inside button</h2>
+        <button type="button" class="btn btn-primary" disabled><span class="spinner-border text-light"></span> spinner inside button</button>
+        
+    </section>
+
+    <h1>Toasts in Bootstrap</h1>
+    <section class="container">
+        <h2>Toast with delay</h2>
+        <section class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true" data-delay="3000" data-autohide="false">
+            <section class="toast-header">
+                <b class="mr-auto">Toast Header</b>
+                <small>9 minutes ago</small>
+            </section>
+            <section class="toast-body">
+                Toast message goes here.....
+            </section>
+        </section>
+        <h2>Toast with close button</h2>
+        <section class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true" >
+            <section class="toast-header">
+                <b class="mr-auto">Toast Header</b>
+                <small>9 minutes ago</small>
+                <a href="#" class="close" data-dismiss="toast">&times;</a>
+            </section>
+            <section class="toast-body">
+                Toast message goes here.....
+            </section>
+        </section>
+        <section class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+            <section class="toast-header">
+              <strong class="mr-auto">Bootstrap</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </section>
+            <section class="toast-body">
+              Hello, world! This is a toast message.
+            </section>
+          </section>
+    </section>
+    <h1>Jumbotron in Bootstrap</h1>
+    <section class="jumbotron">
+
+    </section>
+    <h1>Jumbotron fluid</h1>
+    <section class="jumbotron jumbotron-fluid"></section>
+    <h1>Form Controls</h1>
+
+    <section class="container">
+        <form action="" method="post">
+            <section class="form-group">
+                <label for="text" >Text</label>
+                <input type="text" placeholder="Please Enter Text Here" class="form-control">
+            </section>
+            <section class="form-group">
+                <label for="search" >Search</label>
+                <input type="search" placeholder="Please Enter Search Text Here" class="form-control">
+            </section>
+            <section class="form-group">
+                <label for="email" >Email</label>
+                <input type="email" placeholder="Please Enter Email Here" class="form-control" >
+            </section>
+            <section class="form-group">
+                <label for="password" >Password</label>
+                <input type="password" placeholder="Please Enter Password Here" class="form-control" >
+            </section>
+            <section class="form-group">
+                <label for="date" >Date</label>
+                <input type="date" class="form-control" >
+            </section>
+            <section class="form-group">
+                <label for="time" >Time</label>
+                <input type="time" class="form-control" >
+            </section>
+            <section class="form-group">
+                <label for="color" >Color</label>
+                <input type="color" class="form-control" >
+            </section>
+            <section class="form-group">
+                <label for="file" >Choose File</label>
+                <input type="file" class="form-control" >
+            </section>
+            <section class="form-check">
+                <input type="radio" name="gender" value="male" class="form-check-input"> 
+                <label for="gender">Male</label>
+            </section>
+            <section class="form-check">
+                <input type="radio" name="gender" value="female" class="form-check-input"> 
+                <label for="gender">Female</label>
+            </section>
+            <section class="form-check">
+                <input type="checkbox" name="hobbies" value="book reading" class="form-check-input"> 
+                <label for="hobbies">Book Reading</label>
+            </section>
+            <section class="form-check">
+                <input type="checkbox" name="hobbies" value="coin collection" class="form-check-input"> 
+                <label for="hobbies">Coin Collection</label>
+            </section>
+            <h2>Input Group</h2>
+            <section class="input-group">
+                <section class="input-group-prepend" id="amount">
+                    <span class="input-group-text">$</span>
+                </section>
+                <input type="number" class="form-control" placeholder="Enter Amount Here" aria-describedby="amount">
+                <section class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                </section>
+            </section>
+        </form>
+    </section>
+
 
     <!--first pooper.js, jquery.min.js, bootstrap.buldle.min, script.js  -->
     <script src="js/jquery.min.js"></script>

@@ -558,6 +558,97 @@
         </form>
     </section>
 
+    <h1>Carousel in Bootstrap</h1>
+    <section class="container">
+        <section class="carousel slide" id="carousel" data-ride="false">
+            <ol class="carousel-indicators">
+                <li id="0" data-slide-to="0" data-target="#carousel" class="active"></li>
+                <li id="1" data-slide-to="1" data-target="#carousel"></li>
+                <li id="2" data-slide-to="2" data-target="#carousel"></li>
+            </ol>
+            <section class="carousel-inner">
+                <section class="carousel-item active" >
+                    <img src="images/1.jpg" alt="Slide 1 Image" class="d-block img-fluid">
+                    <section class="carousel-caption">
+                        <h3>Caption Slide 1</h3>
+                        <p>This is the caption for slide 1</p>
+                    </section>
+                </section>
+
+                <section class="carousel-item" >
+                    <img src="images/2.jpg" alt="Slide 2 Image" class="d-block img-fluid">
+                    <section class="carousel-caption">
+                        <h3>Caption Slide 2</h3>
+                        <p>This is the caption for slide 2</p>
+                    </section>
+                </section>
+
+                <section class="carousel-item" >
+                    <img src="images/3.jpg" alt="Slide 3 Image" class="d-block img-fluid">
+                    <section class="carousel-caption">
+                        <h3>Caption Slide 3</h3>
+                        <p>This is the caption for slide 3</p>
+                    </section>
+                </section>
+            </section>
+            <a href="#carousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#carousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </section>
+    </section>
+    <h1>Collapse in Bootstrap</h1>
+    <section class="container">
+        <h2>Show and Hide the content of section on link click</h2>
+        <a href="#linkcollapse" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="" >Collapse with link</a>
+        <section id="linkcollapse" class="collapse">
+            <section class="alert alert-primary">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nemo nisi adipisci velit, quo expedita quis doloremque non dignissimos quisquam accusantium similique eius, provident omnis suscipit. Inventore adipisci fugit modi.</p>
+            </section>
+        </section>
+        <h2>Collapse with button</h2>
+        <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#buttoncollapse" aria-expanded="false" aria-controls="buttoncollapse">Collapse With button</button>
+        <section id="buttoncollapse" class="collapse">
+            <section class="alert alert-warning">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime consequatur quisquam hic nihil officia totam ipsum doloremque ipsam accusamus dolor animi culpa earum qui at, delectus id suscipit nostrum eaque?</p>
+            </section>
+        </section>
+        <h2>Accordion with collapse</h2>
+        <section class="accordion" id="accordion">
+            <section class="card">
+                <section class="card-header" id="heading1">
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse1" aria-controls="collapse1" aria-expanded="false">Button 1</button>
+                    <section id="collapse1">
+                        <section class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus, veritatis repellat laboriosam placeat doloremque natus voluptas harum magni maiores. Possimus nemo ex voluptates ea eveniet officiis amet, molestias consequuntur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae iusto praesentium possimus aut fugiat earum consectetur enim dolor, nesciunt eaque repellendus sint impedit distinctio! Vel sequi libero optio consectetur. Atque?</p>
+                        </section>
+                    </section>
+                </section>
+                <section class="card-header" id="heading2">
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse2" aria-controls="collapse2" aria-expanded="false">Button 2</button>
+                    <section id="collapse2">
+                        <section class="card-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius minus, veritatis repellat laboriosam placeat doloremque natus voluptas harum magni maiores. Possimus nemo ex voluptates ea eveniet officiis amet, molestias consequuntur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae iusto praesentium possimus aut fugiat earum consectetur enim dolor, nesciunt eaque repellendus sint impedit distinctio! Vel sequi libero optio consectetur. Atque?</p>
+                        </section>
+                    </section>
+                </section>
+                <section class="card-header" id="heading3">
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#collapse3" aria-controls="collapse3" aria-expanded="false">Sales Section</button>
+                    <section id="collapse3">
+                        <section class="card-body">
+                            <button type="button" class="btn btn-primary mb-2">New Sale</button> <br>
+                            <button type="button" class="btn btn-primary mb-2">Sale Return</button> <br>
+                            <button type="button" class="btn btn-primary mb-2">Sale History</button> <br>
+                            <button type="button" class="btn btn-primary mb-2">Sale Report</button>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+
 
     <!--first pooper.js, jquery.min.js, bootstrap.buldle.min, script.js  -->
     <script src="js/jquery.min.js"></script>

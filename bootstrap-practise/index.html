@@ -648,6 +648,113 @@
             </section>
         </section>
     </section>
+    <h1>Navbar in Bootstrap</h1>
+    <section class="container">
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <a href="index.html" class="navbar-brand">Brand Name</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navitems" aria-controls="navitems" aria-expanded="false" aria-label="navigation toggler">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <section class="collapse navbar-collapse" id="navitems">
+                <section class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#" class="nav-item nav-link">Teams</a>
+                    <a href="#" class="nav-item nav-link">Services</a>
+                    <a href="#" class="nav-item nav-link">About Us</a>
+                    <a href="#" class="nav-item nav-link">Contact Us</a>
+                </section>
+            </section>
+        </nav>
+    </section>
+
+    <h1>Nav tabs with pans</h1>
+    <section class="container">
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a href="#hometab" id="home-tab" class="nav-link active" data-toggle="tab" aria-controls="hometab" aria-expanded="true" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#abouttab" id="about-tab" class="nav-link " data-toggle="tab" aria-controls="abouttab" aria-expanded="false" aria-selected="false">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contacttab" id="contact-tab" class="nav-link " data-toggle="tab" aria-controls="contacttab" aria-expanded="false" aria-selected="false">Contact</a>
+            </li>
+        </ul>
+        <section class="tab-content">
+            <section class="tab-pane active" id="hometab" role="tabpanel" aria-expanded="true">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est doloribus libero a debitis commodi tempore, perspiciatis expedita impedit facere dignissimos delectus laudantium itaque laboriosam voluptatem, animi fugiat id repellat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolor eveniet rerum, dolorum quam tenetur labore nihil perspiciatis ad rem repudiandae. Perspiciatis, beatae pariatur at totam id amet itaque odit.</p>
+                <button class="btn btn-primary">Home</button>
+            </section>
+            <section class="tab-pane" id="abouttab" role="tabpanel" aria-expanded="false">
+                <h5>About Us</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est doloribus libero a debitis commodi tempore, perspiciatis expedita impedit facere dignissimos delectus laudantium itaque laboriosam voluptatem, animi fugiat id repellat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolor eveniet rerum, dolorum quam tenetur labore nihil perspiciatis ad rem repudiandae. Perspiciatis, beatae pariatur at totam id amet itaque odit.</p>
+                <button class="btn btn-primary">Home</button>
+            </section>
+            <section class="tab-pane" id="contacttab" role="tabpanel" aria-expanded="false">
+                <h5>Contact Us</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur est doloribus libero a debitis commodi tempore, perspiciatis expedita impedit facere dignissimos delectus laudantium itaque laboriosam voluptatem, animi fugiat id repellat.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque dolor eveniet rerum, dolorum quam tenetur labore nihil perspiciatis ad rem repudiandae. Perspiciatis, beatae pariatur at totam id amet itaque odit.</p>
+                <button class="btn btn-primary">Home</button>
+            </section>
+        </section>
+    </section>
+    <h1>Badges in Bootstrap</h1>
+    <section class="container">
+        <button type="button" class="btn btn-secondary">Notifications <span class="badge badge-light">10</span> </button> 
+        <span class="badge badge-danger">10</span>
+    </section>
+    <h1>List Groups in Bootstrap</h1>
+    <section class="container">
+        <ul class="list-group">
+            <li class="list-group-item">Group Item 1</li>
+            <li class="list-group-item">Group Item 2</li>
+            <li class="list-group-item active">Group Item 3</li>
+            <li class="list-group-item">Group Item 4</li>
+            <li class="list-group-item disabled">Group Item 5</li>
+        </ul>
+    </section>
+    <h1>Media Objects in Bootstrap</h1>
+    <section class="container">
+        <h2>left aligned media</h2>
+        <section class="media">
+            <img src="images/1.jpg" alt="Media Image" width="100px" height="100px">
+            <section class="media-body ml-2">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit dolores autem earum ipsum voluptates ratione numquam pariatur impedit excepturi odit esse ullam temporibus, quisquam fuga nesciunt? Aliquam, distinctio vero?</p>
+            </section>
+        </section>
+        <h2>right aligned media</h2>
+        <section class="media">
+            <section class="media-body ">
+                <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi nostrum ullam quis, molestiae ipsa consectetur facere quibusdam vero fugiat sequi ut et vel quisquam itaque. Quo culpa quia repellendus sed!</p>
+                
+            </section>
+            <img src="images/1.jpg" alt="Media Image" width="100px" height="100px">
+        </section>
+    </section>
+    <h1>Modals in Bootstrap</h1>
+    <section class="container">
+        <h2>Modal with header, body, footer and dismiss button</h2>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal1">Open Modal</button>
+        <section class="modal fade" id="modal1" tabindex="1" role="dialog" aria-hidden="true">
+            <section class="modal-dialog" role="document">
+                <section class="modal-content">
+                    <section class="modal-header">
+                        <h5 class="modal-title">Modal Title</h5>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </section>
+                    <section class="modal-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptas nihil corporis necessitatibus iste vitae quis qui nostrum tempora minus labore sunt accusamus iure, voluptate distinctio eligendi rerum nisi asperiores!</p>
+                    </section>
+                    <section class="modal-footer">
+                        <button type="button" class="btn btn-primary">Action</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
 
 
     <!--first pooper.js, jquery.min.js, bootstrap.buldle.min, script.js  -->

@@ -355,3 +355,77 @@ switch(age)
          console.log(pattern)
       }
    }
+
+
+   // nested loop
+
+   // outer loop
+   for(let i = 1; i <= 10; i++)
+   {
+      console.log("outer loop " + i);
+      // inner loop
+      for(let j = 1; j<= 10; j++)
+      {
+         console.log("inner loop " + j);
+      }
+   }
+
+   // for in loop
+   for(let char in characters)
+   {
+      console.log(characters[char]);
+   }
+
+   // funtions in javascript
+
+   // function definition
+   function print_sum()
+   {
+      console.log("sum = 85");
+   }
+
+   // function call
+   print_sum();
+   print_sum();
+
+   // there are 4 types of funtions
+   // function no return and no parameter
+
+   function print_name()
+   {
+      console.log("My name is Abdul Rehman");
+   }
+    print_name();
+
+   //  function with no return and with perameters
+   
+   function addition(a,  b)
+   {
+      console.log(a+b);
+   }
+
+   addition(15,20);
+   addition(35,25);
+   addition(105,85);
+
+
+   // function with return and no perameters
+
+   function get_class()
+   {
+      return "CIT-Web development";
+   }
+
+   let data = get_class();
+   console.log(data);
+
+   // function with return and with perameter
+   function multiply(a, b)
+   {
+      let data = get_class();
+      console.log(data);
+      return a * b ;
+   }
+
+   multi = multiply(15, 10);
+   console.log(multi);

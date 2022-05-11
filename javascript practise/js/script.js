@@ -429,3 +429,107 @@ switch(age)
 
    multi = multiply(15, 10);
    console.log(multi);
+   
+
+   let car = {
+      "name": 'Honda Civic',
+      "Model": 2022,
+      "Engine Power": '1800CC',
+      "Color": 'Black',
+      "Doors": 4,
+      "Auto drive": false,
+      run: function()
+      {
+         console.log("Car is running");
+      },
+      break: function()
+      {
+         console.log("Car is stopped");
+      }
+   };
+
+   console.log(car.name);
+   car.run();
+
+   car.name = "Honda City";
+   console.log(car.name);
+
+   let car1 = car;
+   car1.name = "ABXx";
+   console.log(car);
+   console.log(car1);
+
+   function Person(name, age, address)
+   {
+      console.log("Name : " + name);
+      console.log("Age : "+ age);
+      console.log("Address : "+ address);
+   }
+
+   let father = new Person("Ali", 25, "Okara");
+   let mother = new Person("Naila", 24, "Okara");
+   
+   // global variables
+   let firstName = "Ali";
+   let lastName = "Ahmad";
+   let subject = "Web Programming";
+
+
+   function Student_data(first, last, subject)
+   {
+      this.firstName = first;
+      this.lastName = last;
+      this.subject = subject;
+   }
+
+   function print_student_data()
+   {
+      console.log("First Name : "+ firstName);
+      console.log("Last Name : "+ lastName);
+      console.log("Subject : "+ subject);
+   }
+   print_student_data();
+
+   let student1 = new Student_data("Hadi", "Ahmad", "CIT");
+
+   console.log(student1.firstName);
+   let student2 = new Student_data("Hamza", "Ahmad", "CIT");
+
+   console.log(student2.firstName);
+
+   // page redirection
+
+   //  window.location.replace("https://www.google.com");
+
+   // javascript page refresh
+
+   // window.location.reload();
+
+   // auto refresh
+
+   function autorefresh(time)
+   {
+      window.setTimeout(
+         window.location.reload(),
+         time
+      )
+   }
+
+   function openGoogle()
+   {
+      window.location.replace("https://www.google.com");
+   }
+
+   function showAlert()
+   {
+      alert("Hi I'm a alert box in javascript");
+   }
+
+   function showConfirm()
+   {
+      let ok = confirm("Do you want to close this dialogue");
+      console.log(ok);
+   }
+
+
+

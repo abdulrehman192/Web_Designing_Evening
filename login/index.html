@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/all.css" type="text/css">
+
+    <style>
+        #form
+        {
+            width: 400px;
+            height: 500px;
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+<body class="bg-primary ">
+
+    <section class="container bg-warning m-5  p-5 mx-auto" id="form">
+        <h3>Please Login Here</h3>
+        <form action="#" method="post" class="login">
+            <label for="username">username : </label>
+            <input type="text" name="username" class="form-control" placeholder="Enter Username Here">
+            <label for="password">Password : </label>
+            <input type="password" name="password" class="form-control" placeholder="Enter Password Here">
+            <input type="checkbox" name="remember" class="m-3"> Remember me
+            <br>
+            <button class="btn btn-primary btn-block" onclick="checkCredential()">Sign In</button><br>
+            <button class="btn btn-info btn-block">Sign Up</button>
+
+        </form>
+    </section>
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
